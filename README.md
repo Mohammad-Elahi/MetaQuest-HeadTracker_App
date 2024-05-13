@@ -5,11 +5,11 @@
 This project utilizes the Oculus SDK and other supporting material provided by [Meta](https://www.meta.com/). The Oculus SDK and other supporting material are subject to the Oculus proprietary license.
 
 ## Setup
-Before you begin, ensure that other Meta software like Meta Quest Developer Hub is not installed on your computer. 
-1. Connect your Quest headset to a Windows PC with a USB-C cable and set up Meta Quest Link. You can find the setup instructions [here](https://www.meta.com/en-gb/help/quest/articles/headsets-and-accessories/oculus-link/set-up-link/) (Make sure other Meta app )
-2. Download the Oculus SDK for Windows from [here](https://developer.oculus.com/downloads/package/oculus-sdk-for-windows/)
-3. Create a project folder and name it "MetaApp".  
-4. Copy the LibOVR library from the Oculus SDK folder to the MetaApp folder.
+1. Before you begin, ensure that other Meta software like Meta Quest Developer Hub is not installed on your computer. 
+2. Connect your Quest headset to a Windows PC with a USB-C cable and set up Meta Quest Link. You can find the setup instructions [here](https://www.meta.com/en-gb/help/quest/articles/headsets-and-accessories/oculus-link/set-up-link/) (Make sure other Meta app )
+3. Download the Oculus SDK for Windows from [here](https://developer.oculus.com/downloads/package/oculus-sdk-for-windows/)
+4. Create a project folder and name it "MetaApp".  
+5. Copy the LibOVR library from the Oculus SDK folder to the MetaApp folder.
 
 ## Project Files
 1. Create a Text Document and name it "CMakeLists.txt".
