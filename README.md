@@ -1,6 +1,6 @@
-
+# Meta Quest Head Tracking App
 ![Head Tracking](https://github.com/Mohammad-Elahi/Meta-Quest-Head-Tracking-App/assets/93424032/9201989b-c155-4892-95e6-50cbdd64b1f3)
-Meta Quest Head Tracking App
+
 
 ## Setup
 1. Connect your Quest headset to a Windows PC with a USB-C cable and set up Meta Quest Link. You can find the setup instructions [here](https://www.meta.com/en-gb/help/quest/articles/headsets-and-accessories/oculus-link/set-up-link/)
