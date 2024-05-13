@@ -1,5 +1,5 @@
-![Head Tracking](https://github.com/Mohammad-Elahi/Meta-Quest-Head-Tracking-App/assets/93424032/22a50174-a7da-4197-bb39-1e271f70f2bf)
-# Meta-Quest-Head-Tracking-App
+
+![Head Tracking](https://github.com/Mohammad-Elahi/Meta-Quest-Head-Tracking-App/assets/93424032/9201989b-c155-4892-95e6-50cbdd64b1f3)
 Meta Quest Head Tracking App
 
 ## Setup
