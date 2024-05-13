@@ -103,3 +103,6 @@ cmake ..
 ```
 
 Please replace `your_LibOVR_folder_path` and `your_build_folder_path` with the actual paths on your system.
+
+# Author
+Mohammad Elahi, TU Dresden, Vodafone Chair, mohammad.elahi@mailbox.tu-dresden.de
