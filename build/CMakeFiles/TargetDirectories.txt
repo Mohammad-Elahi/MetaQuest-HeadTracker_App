@@ -1,0 +1,3 @@
+C:/Users/mohammad.elahi/Desktop/MetaApp/build/CMakeFiles/MetaApp.dir
+C:/Users/mohammad.elahi/Desktop/MetaApp/build/CMakeFiles/ALL_BUILD.dir
+C:/Users/mohammad.elahi/Desktop/MetaApp/build/CMakeFiles/ZERO_CHECK.dir

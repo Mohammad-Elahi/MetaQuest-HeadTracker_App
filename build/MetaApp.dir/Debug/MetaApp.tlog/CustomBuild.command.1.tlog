@@ -1,0 +1,10 @@
+^C:\USERS\MOHAMMAD.ELAHI\DESKTOP\METAAPP\CMAKELISTS.TXT
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/mohammad.elahi/Desktop/MetaApp -BC:/Users/mohammad.elahi/Desktop/MetaApp/build --check-stamp-file C:/Users/mohammad.elahi/Desktop/MetaApp/build/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
