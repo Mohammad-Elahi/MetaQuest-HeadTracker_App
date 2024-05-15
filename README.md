@@ -2,7 +2,7 @@
 ![Head Tracking](https://github.com/Mohammad-Elahi/Meta-Quest-Head-Tracking-App/assets/93424032/9201989b-c155-4892-95e6-50cbdd64b1f3)
 
 ## Description
-The Meta Quest Head Tracking App is a real-time head-tracking application for Meta Quest users. Developed with the LibOVR library, it leverages the Oculus SDK to interact with the Meta Quest headset, capturing the position and orientation of the user’s head at any given moment. 
+The Meta Quest Head Tracking App is a real-time head-tracking application for Meta Quest users. Developed with the [LibOVR](https://developer.oculus.com/documentation/native/pc/dg-libovr/) library, it leverages the Oculus SDK to interact with the Meta Quest headset, capturing the position and orientation of the user’s head at any given moment. 
 
 ## license
 This project utilizes the Oculus SDK and other supporting material provided by [Meta](https://www.meta.com/). The Oculus SDK and other supporting material are subject to the Oculus proprietary license.
