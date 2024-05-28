@@ -14,7 +14,7 @@ This project utilizes the Oculus SDK and other supporting material provided by [
 4. Download Oculus SDK for Windows [here](https://developer.oculus.com/downloads/package/oculus-sdk-for-windows/)
 5. Create project folder "MetaApp"
 6. Copy LibOVR library to MetaApp folder
-   *From Oculus SDK folder
+*From Oculus SDK folder
 
 ## Project Files
 1. Create a Text Document and name it "CMakeLists.txt".
