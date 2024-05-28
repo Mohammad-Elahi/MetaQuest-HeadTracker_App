@@ -8,11 +8,13 @@ The Meta Quest Head Tracking App is a real-time head-tracking application for Me
 This project utilizes the Oculus SDK and other supporting material provided by [Meta](https://www.meta.com/). The Oculus SDK and other supporting material are subject to the Oculus proprietary license.
 
 ## Setup
-1. Before you begin, ensure that other Meta software like Meta Quest Developer Hub is not installed on your computer. 
-2. Connect your Quest headset to a Windows PC with a USB-C cable and set up Meta Quest Link. You can find the setup instructions [here](https://www.meta.com/en-gb/help/quest/articles/headsets-and-accessories/oculus-link/set-up-link/) 
-3. Download the Oculus SDK for Windows from [here](https://developer.oculus.com/downloads/package/oculus-sdk-for-windows/)
-4. Create a project folder and name it "MetaApp".  
-5. Copy the LibOVR library from the Oculus SDK folder to the MetaApp folder.
+1. Ensure no other Meta software is installed
+2. Connect Quest to PC via USB-C
+3. Set up Meta Quest Link [here](https://www.meta.com/en-gb/help/quest/articles/headsets-and-accessories/oculus-link/set-up-link/) 
+4. Download Oculus SDK for Windows [here](https://developer.oculus.com/downloads/package/oculus-sdk-for-windows/)
+5. Create project folder "MetaApp"
+6. Copy LibOVR library to MetaApp folder
+   *From Oculus SDK folder
 
 ## Project Files
 1. Create a Text Document and name it "CMakeLists.txt".
