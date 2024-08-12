@@ -112,5 +112,12 @@ Please replace `your_LibOVR_folder_path` and `your_build_folder_path` with the a
 # Author
 Mohammad Elahi, TU Dresden, Vodafone Chair, mohammad.elahi@mailbox.tu-dresden.de
 
+## How to Cite
+
+If you use this software in your research, please cite it as follows:
+
+[Mohammad Elahi]. (2023). [Meta Quest Head Tracking App]. GitHub. https://github.com/Mohammad-Elahi/MetaQuest-HeadTracker_App
+
+For BibTeX:
 ![MetaApp](https://github.com/Mohammad-Elahi/Meta-Quest-Head-Tracking-App/assets/93424032/6509ac2b-b1df-43fd-8240-744c490ded6a)
 
