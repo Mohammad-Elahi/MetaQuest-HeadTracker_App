@@ -1,0 +1,19 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite it as below."
+authors:
+  - family-names: Elahi
+    given-names: Mohammad
+    orcid: https://orcid.org/0000-0003-2654-3882
+title: "MetaQuest-HeadTracker_App"
+version: 1.0.0  
+date-released: 2024-05-13  # Today's date
+url: "https://github.com/Mohammad-Elahi/MetaQuest-HeadTracker_App"
+repository-code: "https://github.com/Mohammad-Elahi/MetaQuest-HeadTracker_App"
+license: GPL-3.0
+abstract: "The Meta Quest Head Tracking App is a real-time head-tracking application for Meta Quest users."
+keywords:
+  - "augmented reality"
+  - "trajectory plotting"
+  - "Meta Quest 3"
+  - "head tracking"
+  - "data visualization"
