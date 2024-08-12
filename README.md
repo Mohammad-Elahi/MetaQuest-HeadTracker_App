@@ -119,7 +119,7 @@ If you use this software in your research, please cite it as follows:
 Elahi, M. (2024). MetaQuest-HeadTracker_App: The Meta Quest Head Tracking App is a real-time head-tracking application for Meta Quest users. GitHub. https://github.com/Mohammad-Elahi/MetaQuest-HeadTracker_App
 
 For BibTeX:
-![MetaApp](https://github.com/Mohammad-Elahi/Meta-Quest-Head-Tracking-App/assets/93424032/6509ac2b-b1df-43fd-8240-744c490ded6a)
+
 ```
 @software{Elahi2024,
   author = {Elahi, Mohammad},
@@ -131,4 +131,4 @@ For BibTeX:
 }
 
 ```
-
+![MetaApp](https://github.com/Mohammad-Elahi/Meta-Quest-Head-Tracking-App/assets/93424032/6509ac2b-b1df-43fd-8240-744c490ded6a)
