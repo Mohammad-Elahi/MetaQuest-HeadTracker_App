@@ -116,8 +116,19 @@ Mohammad Elahi, TU Dresden, Vodafone Chair, mohammad.elahi@mailbox.tu-dresden.de
 
 If you use this software in your research, please cite it as follows:
 
-[Mohammad Elahi]. (2023). [Meta Quest Head Tracking App]. GitHub. https://github.com/Mohammad-Elahi/MetaQuest-HeadTracker_App
+Elahi, M. (2024). MetaQuest-HeadTracker_App: The Meta Quest Head Tracking App is a real-time head-tracking application for Meta Quest users. GitHub. https://github.com/Mohammad-Elahi/MetaQuest-HeadTracker_App
 
 For BibTeX:
 ![MetaApp](https://github.com/Mohammad-Elahi/Meta-Quest-Head-Tracking-App/assets/93424032/6509ac2b-b1df-43fd-8240-744c490ded6a)
+```
+@software{Elahi2024,
+  author = {Elahi, Mohammad},
+  title = {MetaQuest-HeadTracker_App: The Meta Quest Head Tracking App is a real-time head-tracking application for Meta Quest users},
+  year = {2024},
+  publisher = {GitHub},
+  journal = {GitHub repository},
+  url = {https://github.com/Mohammad-Elahi/MetaQuest-HeadTracker_App}
+}
+
+```
 
