@@ -15,115 +15,46 @@ The Meta Quest Head Tracking App is a real-time head-tracking application for Me
 
 ![MetaApp](https://github.com/Mohammad-Elahi/Meta-Quest-Head-Tracking-App/assets/93424032/6509ac2b-b1df-43fd-8240-744c490ded6a)
 
-
-
-## license
+## License
 This project utilizes the Oculus SDK and other supporting material provided by [Meta](https://www.meta.com/). The Oculus SDK and other supporting material are subject to the Oculus proprietary license.
 
-## Setup
-1. Ensure no other Meta software is installed
-2. Connect Quest to PC via USB-C
-3. Set up Meta Quest Link [here](https://www.meta.com/en-gb/help/quest/articles/headsets-and-accessories/oculus-link/set-up-link/) 
-4. Download Oculus SDK for Windows [here](https://developer.oculus.com/downloads/package/oculus-sdk-for-windows/)
-5. Create project folder "MetaApp"
-6. Copy LibOVR library to MetaApp folder (From Oculus SDK folder)
+## Setup Prerequisites
+1. Ensure no other Meta software is installed.
+2. Connect Quest to PC via USB-C.
+3. Set up Meta Quest Link [here](https://www.meta.com/en-gb/help/quest/articles/headsets-and-accessories/oculus-link/set-up-link/).
+4. Download and install [CMake](https://cmake.org/download/).
 
-## Project Files
-1. Create a Text Document and name it "CMakeLists.txt".
-2. Create a C++ source file and name it "main.cpp".
-3. Create a new folder in the MetaApp folder and name it "build".
+> **Note:** The `LibOVR` SDK files required to build this project are already included in this repository. You do not need to download them manually.
 
-   
-## CMakeLists.txt
-Write the following code in CMakeLists.txt. Make sure to set your LibOVR path correctly:
-```
-cmake_minimum_required(VERSION 3.10)
-project(MetaApp)
+## Build Instructions
 
-set(CMAKE_CXX_STANDARD 14)
-            
-#Specify the path to your LibOVR installation
-set(LIBOVR_PATH C:/Users/your_LibOVR_folder_path)
-
-include_directories(${LIBOVR_PATH}/Include)
-link_directories(${LIBOVR_PATH}/Lib/Windows/x64/Release/VS2017)
-
-add_executable(MetaApp main.cpp)
-target_link_libraries(MetaApp LibOVR)
+**1. Clone the repository:**
+Open your Command Prompt (CMD) or PowerShell and run:
+```sh
+git clone https://github.com/Mohammad-Elahi/MetaQuest-HeadTracker-App.git
+cd MetaQuest-HeadTracker-App
 ```
 
-# main.cpp
-Write the following code in main.cpp:
-
-```
-    #include <OVR_CAPI.h>
-    #include <iostream>
-    
-        int main() {
-           std::cout << "Starting program...\n";
-
-       if (ovr_Initialize(nullptr) == ovrSuccess) {
-        std::cout << "LibOVR initialized successfully.\n";
-
-        ovrSession session;
-        ovrGraphicsLuid luid;
-        ovrResult result = ovr_Create(&session, &luid);
-
-        if (result == ovrSuccess) {
-            std::cout << "Session created successfully.\n";
-
-            while (true) {
-                ovrTrackingState ts = ovr_GetTrackingState(session, ovr_GetTimeInSeconds(), true);
-                if (ts.StatusFlags & (ovrStatus_OrientationTracked | ovrStatus_PositionTracked)) {
-                    ovrPosef pose = ts.HeadPose.ThePose;
-                    std::cout << "Position: (" << pose.Position.x << ", " << pose.Position.y << ", " << pose.Position.z << ")\n";
-                    std::cout << "Orientation: (" << pose.Orientation.x << ", " << pose.Orientation.y << ", " << pose.Orientation.z << ", " << pose.Orientation.w << ")\n";
-                }
-            }
-            ovr_Destroy(session);
-        } else {
-            std::cout << "Failed to create session. Error: " << result << "\n";
-        }
-        ovr_Shutdown();
-    } else {
-        std::cout << "Failed to initialize LibOVR.\n";
-    }
-    return 0;
-}
-```
-# Build
-1. Download and install CMake from [here](https://cmake.org/download/)
-2. Open CMake and click “Browse Source”, then choose the MetaApp folder.
-3. Click “Browse Build” and choose the “build” folder in the MetaApp folder.
-4. Click on “Generate”.
-5. Open the Command Prompt (CMD) on your windows and navigate to the “build” folder with this command:
-```
-cd C:\Users\your_build_folder_path
-```
-6. Compile the project:
-```
-cmake --build .
-```
-7. After the build process is complete, you should see your “Debug” folder in the build directory which includes MetaApp.exe.
-8. You can run the application directly from the command line:
-```
-cd Debug
-```
-```
-.\MetaApp.exe
-```
-Note: Instead of steps 1 to 4, you can open CMD, navigate to your “build” directory, and write:
-```
-cd C:\Users\your_build_folder_path
-```
-```
-cmake ..
+**2. Generate the build files using CMake:**
+```sh
+cmake -B build
 ```
 
-Please replace `your_LibOVR_folder_path` and `your_build_folder_path` with the actual paths on your system.
+**3. Compile the project:**
+```sh
+cmake --build build --config Debug
+```
+*(This will compile the project using MSVC. The output executable will be placed in `build\Debug\MetaApp.exe`).*
 
-# Author
-Mohammad Elahi, TU Dresden, Vodafone Chair, mohammad.elahi@mailbox.tu-dresden.de
+**4. Run the application:**
+```sh
+.\build\Debug\MetaApp.exe
+```
+
+## Author
+**Mohammad Elahi**  
+Research Assistant at Vodafone Chair for Mobile Communications Systems, TU Dresden  
+mohammad.elahi@mailbox.tu-dresden.de
 
 ## How to Cite
 
@@ -131,9 +62,8 @@ If you use this software in your research, please cite it as follows:
 
 Elahi, M. (2024). MetaQuest-HeadTracker_App: The Meta Quest Head Tracking App is a real-time head-tracking application for Meta Quest users. GitHub. https://github.com/Mohammad-Elahi/MetaQuest-HeadTracker_App
 
-For BibTeX:
-
-```
+**BibTeX:**
+```bibtex
 @software{Elahi2024,
   author = {Elahi, Mohammad},
   title = {MetaQuest-HeadTracker_App: The Meta Quest Head Tracking App is a real-time head-tracking application for Meta Quest users},
@@ -142,6 +72,4 @@ For BibTeX:
   journal = {GitHub repository},
   url = {https://github.com/Mohammad-Elahi/MetaQuest-HeadTracker_App}
 }
-
 ```
-
