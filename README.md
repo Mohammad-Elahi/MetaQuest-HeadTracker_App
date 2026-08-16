@@ -9,7 +9,7 @@ A newer and enhanced version is now available:
 ---
 
 ## Description
-The Meta Quest Head Tracking App is a real-time head-tracking application for Meta Quest users. Developed in C++ using the [LibOVR](https://developer.oculus.com/documentation/native/pc/dg-libovr/) library, it leverages the Oculus SDK to interact with the Meta Quest headset, capturing the position and orientation of the user’s head at any given moment. 
+The Meta Quest Head Tracker is a real-time head-tracking application for Meta Quest users. Developed in C++ using the [LibOVR](https://developer.oculus.com/documentation/native/pc/dg-libovr/) library, it leverages the Oculus SDK to interact with the Meta Quest headset, capturing the position and orientation of the user’s head at any given moment. 
 
 ## Preview
 
